@@ -1,8 +1,27 @@
 aid: raphe-mphibr
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/raphe-mphibr.png
 name: Raphe Mphibr
-description: Raphe Mphibr is a company surfaced as a portfolio company of general-catalyst and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Raphe mPhibr is an Indian deep-tech aerospace company revolutionizing unmanned
+  aviation through in-house carbon fiber composites, UAV airframes, propulsion, and
+  end-to-end manufacturing. The company designs and builds heavy-lift and tactical
+  unmanned aerial vehicles (UAVs/drones) for defense and industrial applications,
+  emphasizing research-driven innovation and vertically integrated production. Raphe
+  mPhibr is a B2B / defense-oriented manufacturer surfaced as a portfolio company of
+  General Catalyst and added to the API Evangelist network. As of this enrichment
+  pass the company publishes no public developer portal, API, SDK, or documentation
+  surface — its digital presence is a corporate marketing site only.
 url: https://raw.githubusercontent.com/api-evangelist/raphe-mphibr/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +31,29 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Aerospace
+- Defense
+- Drones
+- UAV
+- Unmanned Aviation
+- Manufacturing
+- Carbon Fiber
 apis: []
+common:
+- type: DomainSecurity
+  url: security/raphe-mphibr-domain-security.yml
+- type: Website
+  url: https://raphe.com
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
